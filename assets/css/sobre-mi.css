@@ -1,0 +1,12 @@
+.sobre-mi {
+    display: flex;
+    width: 100%;
+    flex-flow:column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #191b1f;
+    min-height: 40vh;
+    padding: 1rem 0px;
+    margin-top: 1.5rem;
+    
+}

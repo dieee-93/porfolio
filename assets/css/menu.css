@@ -1,0 +1,15 @@
+.menu{
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: end;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    width: 40%;
+}
+
+
+@media screen and (max-width:800px){
+
+    
+    
+}

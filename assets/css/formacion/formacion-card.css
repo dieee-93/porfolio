@@ -1,0 +1,17 @@
+.formacion__card {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    width: 45%;
+    margin: 0.5em 0.5em 0.5em 0.5em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+
+}
+
+.formacion__card img{
+object-fit: contain;
+max-height: 50%;
+max-width: 100%;
+}
+
+

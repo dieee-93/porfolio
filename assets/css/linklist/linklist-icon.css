@@ -1,0 +1,14 @@
+.linklist__icon {
+ 
+    width: auto;
+    height: 20px;
+    padding-right: 0.5rem;
+}
+
+
+.linklist__icon--big {
+ 
+    width: auto;
+    height: 40px;
+    
+}

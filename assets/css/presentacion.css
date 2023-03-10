@@ -1,0 +1,8 @@
+.presentacion{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    margin-top: 2rem;
+}

@@ -1,0 +1,10 @@
+.contacto {
+    display:flex;
+    flex-flow: row wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #191B1F;
+    padding: 3em 0em;
+    margin-top: 3em;
+}

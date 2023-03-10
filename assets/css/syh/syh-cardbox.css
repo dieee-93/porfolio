@@ -1,0 +1,6 @@
+.syh__cardbox{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: space-around;
+}

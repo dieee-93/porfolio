@@ -1,0 +1,12 @@
+.menu__list a:visited {
+    color: #fff;
+}
+
+@media screen and (max-width:1000px){
+.menu__item{
+    display:none;   
+    
+}
+
+}
+

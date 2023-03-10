@@ -1,0 +1,17 @@
+:root {
+   --contacto-boton-color:#19b6ff;
+}
+body {
+    background-color: #1F2227;
+    color:#FBFBFB;
+    width: 100vw;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+
+    font-family: 'Raleway', sans-serif;
+}

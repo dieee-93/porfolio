@@ -1,0 +1,7 @@
+.contacto__content {
+    width: 50%;
+    height: 700px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}

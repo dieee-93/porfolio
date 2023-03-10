@@ -1,0 +1,13 @@
+a:link { text-decoration: none;
+color: rgb(29, 197, 71); }
+
+
+a:visited { text-decoration: none;
+    color:rgb(29, 197, 71)
+}
+
+
+a:hover { text-decoration: underline; }
+
+
+a:active { text-decoration: none; }

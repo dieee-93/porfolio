@@ -1,0 +1,9 @@
+.header{
+    display:flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    justify-content: space-around;
+    padding: 1.5rem 0px;
+
+}
+

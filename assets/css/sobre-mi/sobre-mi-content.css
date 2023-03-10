@@ -1,0 +1,5 @@
+.sobre-mi__content{
+    width: 80%;
+    display:flex;
+    flex-flow:column nowrap;
+}

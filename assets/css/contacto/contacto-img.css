@@ -1,0 +1,13 @@
+
+ .contacto__img {
+        width: 30%;
+        height: 700px;
+        object-fit: contain;
+    }
+
+
+@media  screen and (max-width:1100px) {
+    .contacto__img {
+      display: none;
+    }
+}
