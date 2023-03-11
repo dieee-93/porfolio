@@ -28,6 +28,9 @@
       rel="stylesheet"
       href="assets/css/presentacion/presentacion-info.css"
     />
+    <link rel="stylesheet" href="assets/css/presentacion/presentacion-content.css" />
+    
+    <link rel="stylesheet" href="assets/css/presentacion/presentacion-text.css" />
     <link
       rel="stylesheet"
       href="assets/css/presentacion/presentacion-img.css"
@@ -114,7 +117,9 @@
             <a href="" class="menu__link">Proyectos</a>
           </li>
           <li class="menu__item">
-            <a href="mailto:dieee.93@gmail.com" class="menu__link">diego.m.soro@gmail.com</a>
+            <a href="mailto:dieee.93@gmail.com" class="menu__link"
+              >diego.m.soro@gmail.com</a
+            >
           </li>
         </ul>
       </nav>
@@ -122,60 +127,71 @@
     <main>
       <section class="presentacion">
         <div class="presentacion__info">
-          <h1 class="presentacion__info--title">
-            Hola, mi nombre es Diego soro y me dedico a desarrollar paginas webs
-          </h1>
-          <p class="presentacion__info--bio">
-            Estoy formado en Java y React y actualmente estoy participando del
-            proyecto Oracle ONE en Alura latam
-          </p>
-          <ul class="linklist">
-            <li class="linklist__item">
-              <a href="https://github.com/dieee-93">
-                <img
-                  src="assets/img/icons/presentacion/linklist/github-color-svgrepo-com.svg"
-                  alt="Logo de Github"
-                  class="linklist__icon"
-                />Github</a
-              >
-            </li>
-            <li class="linklist__item">
-              <a href="https://www.linkedin.com/in/diego-soro-dev/">
-                <img
-                  src="assets/img/icons/presentacion/linklist/linkedin-icon-2-logo-svgrepo-com.svg"
-                  alt="Logo de LinkedIn"
-                  class="linklist__icon"
-                />LinkedIn</a
-              >
-            </li>
-            <li class="linklist__item">
-              <a href="https://www.instagram.com/diego_lnd/">
-                <img
-                  src="assets/img/icons/presentacion/linklist/instagram-1-svgrepo-com.svg"
-                  alt="Logo de Instagram"
-                  class="linklist__icon"
-                />Instagram</a
-              >
-            </li>
-            <li class="linklist__item">
-              <a
-                href="https://drive.google.com/file/d/1ufAOQZ0oWtC5-wFQaweqCWbU3MHBx1jr/view?usp=share_link"
-              >
-                <img
-                  src="assets/img/icons/presentacion/linklist/pdf-file-svgrepo-com.svg"
-                  alt="Logo de PDF"
-                  class="linklist__icon"
-                />Curriculum</a
-              >
-            </li>
-          </ul>
+          <div class="presentacion__content">
+            <div class="presentacion__text">
+              <h1 class="presentacion__info--title">
+                Hola, mi nombre es Diego soro y me dedico a desarrollar paginas webs
+              </h1>
+              <p class="presentacion__info--bio">
+                Estoy formado en Java y React y actualmente estoy participando del
+                proyecto Oracle ONE en Alura latam
+              </p>
+              <ul class="linklist">
+                <li class="linklist__item">
+                  <a href="https://github.com/dieee-93">
+                    <img
+                      src="assets/img/icons/presentacion/linklist/github-color-svgrepo-com.svg"
+                      alt="Logo de Github"
+                      class="linklist__icon"
+                    />Github</a
+                  >
+                </li>
+                <li class="linklist__item">
+                  <a href="https://www.linkedin.com/in/diego-soro-dev/">
+                    <img
+                      src="assets/img/icons/presentacion/linklist/linkedin-icon-2-logo-svgrepo-com.svg"
+                      alt="Logo de LinkedIn"
+                      class="linklist__icon"
+                    />LinkedIn</a
+                  >
+                </li>
+                <li class="linklist__item">
+                  <a href="https://www.instagram.com/diego_lnd/">
+                    <img
+                      src="assets/img/icons/presentacion/linklist/instagram-1-svgrepo-com.svg"
+                      alt="Logo de Instagram"
+                      class="linklist__icon"
+                    />Instagram</a
+                  >
+                </li>
+                <li class="linklist__item">
+                  <a
+                    href="https://drive.google.com/file/d/1ufAOQZ0oWtC5-wFQaweqCWbU3MHBx1jr/view?usp=share_link"
+                  >
+                    <img
+                      src="assets/img/icons/presentacion/linklist/pdf-file-svgrepo-com.svg"
+                      alt="Logo de PDF"
+                      class="linklist__icon"
+                    />Curriculum</a
+                  >
+                </li>
+              </ul>
+    
+            </div>
+          
+            <div class="presentacion__img">
+              <img
+                src="assets/img/personal-picture.jpg"
+                alt="Imagen de Diego Soro"
+              />
+            </div>
+
+          </div>
+
+      
+      
         </div>
-        <div class="presentacion__img">
-          <img
-            src="assets/img/personal-picture.jpg"
-            alt="Imagen de Diego Soro"
-          />
-        </div>
+        
 
         <div class="sobre-mi">
           <div class="sobre-mi__content">
@@ -305,10 +321,7 @@
           <a href="#" class="syh__card cocina">
             <div class="cor__cobertura"></div>
             <div class="circulo">
-              <img
-                src="assets/img/icons/syh/skillcards/cook-icon.svg"
-                alt=""
-              />
+              <img src="assets/img/icons/syh/skillcards/cook-icon.svg" alt="" />
             </div>
             <p>Cocina</p>
           </a>
@@ -335,10 +348,7 @@
           <a href="#" class="syh__card leer">
             <div class="cor__cobertura"></div>
             <div class="circulo">
-              <img
-                src="assets/img/icons/syh/skillcards/book-icon.svg"
-                alt=""
-              />
+              <img src="assets/img/icons/syh/skillcards/book-icon.svg" alt="" />
             </div>
             <p>Lectura</p>
           </a>

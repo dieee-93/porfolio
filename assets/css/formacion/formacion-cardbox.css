@@ -5,3 +5,12 @@
     width: 80%;
     height: fit-content;
 }
+
+
+
+@media screen and (max-width:1100px) {
+    .formacion__cardbox{
+        width: 90%;
+        
+    }
+}

@@ -1,0 +1,39 @@
+
+
+
+@media screen and (min-width:0px) {
+    .presentacion__content {
+        width: 100%;
+        display: flex;
+        flex-flow: column-reverse nowrap;
+        justify-content: space-between;
+    }
+    
+    
+    
+    
+}
+
+@media screen and (min-width:400px) {
+
+    .presentacion__content {
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+        
+
+}
+
+@media screen and (min-width:1100px) {
+
+    .presentacion__content {
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+    
+    
+}

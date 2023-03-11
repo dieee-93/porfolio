@@ -1,4 +1,12 @@
 .sobre-mi__text {
     font-size: 1.2rem;
-    width: 75%;
+    width: 70%;
+
+}
+
+@media screen and (max-width:1100px) {
+    .sobre-mi__text{
+        width: 100%;
+        
+    }
 }

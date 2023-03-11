@@ -5,3 +5,10 @@
     flex-flow: column nowrap;
     justify-content: space-between;
 }
+
+
+@media screen and (max-width:1100px) {
+    .contacto__content{
+    width: 90%;
+    }
+}

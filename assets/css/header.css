@@ -1,17 +1,39 @@
-.header{
-    display:flex;
-    flex-flow: row nowrap;
-    width: 100%;
-    justify-content: space-around;
-    padding: 1.5rem 0px;
 
-}
-
-
-@media screen and (min-width:200px) {
+@media screen and (min-width:0px) {
 
     .header {
-        justify-content: center;
+        display:flex;
+        flex-flow: row nowrap;
+        width: 100%;
+        justify-content: space-between;
+        padding: 1.5em 0px;
     }
 }
+
+
+@media screen and (min-width:400px) {
+
+    .header{
+        display:flex;
+        flex-flow: row nowrap;
+        width: 100%;
+        justify-content: center;
+        padding: 1.5rem 0px;
+    }
+}
+
+@media screen and (min-width:1100px) {
+    .header{
+        display:flex;
+        flex-flow: row nowrap;
+        width: 100%;
+        justify-content: center;
+        padding: 1.5rem 0px;
+    
+    }
+}
+
+
+
+
 
