@@ -13,24 +13,36 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,700;1,400&display=swap"
       rel="stylesheet"
     />
+
+    <!-- MAIN -->
     <link rel="stylesheet" href="assets/css/reset.css" />
     <link rel="stylesheet" href="assets/css/normalize.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/glow-on-hover.css" />
+
+    <!-- HEADER -->
     <link rel="stylesheet" href="assets/css/header.css" />
     <link rel="stylesheet" href="assets/css/header/header-title.css" />
     <link rel="stylesheet" href="assets/css/menu.css" />
     <link rel="stylesheet" href="assets/css/menu/menu-list.css" />
     <link rel="stylesheet" href="assets/css/menu/menu-item.css" />
     <link rel="stylesheet" href="assets/css/menu/menu-link.css" />
+
+    <!-- PRESENTACION -->
     <link rel="stylesheet" href="assets/css/presentacion.css" />
     <link
       rel="stylesheet"
       href="assets/css/presentacion/presentacion-info.css"
     />
-    <link rel="stylesheet" href="assets/css/presentacion/presentacion-content.css" />
-    
-    <link rel="stylesheet" href="assets/css/presentacion/presentacion-text.css" />
+    <link
+      rel="stylesheet"
+      href="assets/css/presentacion/presentacion-content.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="assets/css/presentacion/presentacion-text.css"
+    />
     <link
       rel="stylesheet"
       href="assets/css/presentacion/presentacion-img.css"
@@ -42,11 +54,14 @@
     <link rel="stylesheet" href="assets/css/linklist.css" />
     <link rel="stylesheet" href="assets/css/linklist/linklist-item.css" />
     <link rel="stylesheet" href="assets/css/linklist/linklist-icon.css" />
+
+    <!-- SKILLS Y HOBBIES -->
     <link rel="stylesheet" href="assets/css/syh.css" />
     <link rel="stylesheet" href="assets/css/syh/syh-title.css" />
     <link rel="stylesheet" href="assets/css/syh/syh-cardbox.css" />
     <link rel="stylesheet" href="assets/css/syh/syh-skillcard.css" />
 
+    <!-- FORMACION -->
     <link rel="stylesheet" href="assets/css/formacion.css" />
     <link rel="stylesheet" href="assets/css/formacion/formacion-title.css" />
     <link rel="stylesheet" href="assets/css/formacion/formacion-cardbox.css" />
@@ -56,6 +71,8 @@
       rel="stylesheet"
       href="assets/css/formacion/formacion-info-adicional.css"
     />
+
+    <!-- EXPERIENCIA -->
     <link rel="stylesheet" href="assets/css/experiencia.css" />
     <link
       rel="stylesheet"
@@ -91,6 +108,8 @@
       rel="stylesheet"
       href="assets/css/experiencia/experiencia-repo-btn.css"
     />
+
+    <!-- CONTACTO -->
     <link rel="stylesheet" href="assets/css/contacto.css" />
     <link rel="stylesheet" href="assets/css/contacto/contacto-img.css" />
     <link rel="stylesheet" href="assets/css/contacto/contacto-content.css" />
@@ -98,8 +117,24 @@
     <link rel="stylesheet" href="assets/css/contacto/contacto-text.css" />
     <link rel="stylesheet" href="assets/css/contacto/contacto-form.css" />
     <link rel="stylesheet" href="assets/css/contacto/contacto-inputbox.css" />
-    <link rel="stylesheet" href="assets/css/contacto/contacto-label.css" />
     <link rel="stylesheet" href="assets/css/contacto/contacto-input.css" />
+    <link rel="stylesheet" href="assets/css/contacto/contacto-label.css" />
+    <link
+      rel="stylesheet"
+      href="assets/css/contacto/contacto-input-message-error.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/css/contacto/contacto-textarea-box.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/css/contacto/contacto-submit-msg.css"
+    />
+
+    
+
+    <!-- FOOTER -->
     <link rel="stylesheet" href="assets/css/footer.css" />
   </head>
   <body>
@@ -130,11 +165,12 @@
           <div class="presentacion__content">
             <div class="presentacion__text">
               <h1 class="presentacion__info--title">
-                Hola, mi nombre es Diego soro y me dedico a desarrollar paginas webs
+                Hola, mi nombre es Diego soro y me dedico a desarrollar paginas
+                webs
               </h1>
               <p class="presentacion__info--bio">
-                Estoy formado en Java y React y actualmente estoy participando del
-                proyecto Oracle ONE en Alura latam
+                Estoy formado en Java y React y actualmente estoy participando
+                del proyecto Oracle ONE en Alura latam
               </p>
               <ul class="linklist">
                 <li class="linklist__item">
@@ -176,22 +212,16 @@
                   >
                 </li>
               </ul>
-    
             </div>
-          
+
             <div class="presentacion__img">
               <img
                 src="assets/img/personal-picture.jpg"
                 alt="Imagen de Diego Soro"
               />
             </div>
-
           </div>
-
-      
-      
         </div>
-        
 
         <div class="sobre-mi">
           <div class="sobre-mi__content">
@@ -494,28 +524,72 @@
 
           <form class="contacto__form">
             <div class="contacto__inputbox">
-              <input type="text" name="nombre" required />
-              <label>Nombre</label>
+              <input
+                type="text"
+                class="input"
+                name="nombre"
+                required
+                placeholder="#"
+                pattern="[\s\S]{3,20}"
+                data-tipo="nombre"
+              />
+              <label for="nombre" class="input-label">Nombre</label>
+              <span class="contacto__input-message-error"
+                >Este campo no es valido</span
+              >
             </div>
             <div class="contacto__inputbox">
-              <input type="email" name="email" required />
-              <label>E-mail</label>
+              <input
+                type="email"
+                name="email"
+                class="input"
+                required
+                placeholder="#"
+                data-tipo="email"
+              />
+              <label for="email" class="input-label">E-mail</label>
+              <span class="contacto__input-message-error"
+                >Este campo no es valido</span
+              >
             </div>
             <div class="contacto__inputbox">
-              <input type="email" name="asunto" required />
-              <label>Asunto</label>
+              <input
+                type="text"
+                name="asunto"
+                class="input"
+                required
+                pattern="[\s\S]{5,20}"
+                placeholder="#"
+                data-tipo="asunto"
+              />
+              <label class="input-label" for="asunto">Asunto</label>
+              <span class="contacto__input-message-error"
+                >Este campo no es valido</span
+              >
             </div>
-            <div class="contacto__inputbox">
-              <textarea name="mensaje" cols="30" rows="3" required></textarea>
-              <label>Mensaje</label>
+            <div class="contacto__textarea-box">
+              <textarea
+                name="mensaje"
+                cols="30"
+                rows="3"
+                pattern="[\s\S]{20,300}"
+                placeholder="# "
+                required
+                data-tipo="mensaje"
+              ></textarea>
+              <label class="input-label" for="mensaje">Mensaje</label>
+              <span class="contacto__input-message-error"
+                >Este campo no es valido</span
+              >
             </div>
-            <a href="#">
+            <a href="#" class="contacto__submit-btn">
               <span></span>
               <span></span>
               <span></span>
               <span></span>
               Submit
             </a>
+            <span class="contacto__submit-msg"></span>
           </form>
         </div>
       </section>
@@ -559,5 +633,6 @@
         </li>
       </ul>
     </footer>
+    <script src="./assets/js/contacto-form.js" type="module"></script>
   </body>
 </html>

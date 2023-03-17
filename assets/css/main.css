@@ -1,5 +1,6 @@
 :root {
    --contacto-boton-color:#19b6ff;
+   --warning-color:#ff1919;
 }
 body {
     background-color: #1F2227;

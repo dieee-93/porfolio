@@ -1,0 +1,10 @@
+
+.contacto__submit-msg.contacto__submit-msg--success{
+    color: #47ff22ee;
+    display: inherit;
+}
+
+.contacto__submit-msg.contacto__submit-msg--error{
+    color: #ff2222ee;
+    display: inherit;
+}
